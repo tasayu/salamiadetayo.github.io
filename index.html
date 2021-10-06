@@ -8,9 +8,21 @@
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/skins/color-1.css">
-    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+    <title>Salami Adetayo</title>
 </head>
 <body>
+
+    <!-- preloader start -->
+    <div class="preloader">
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- preloader end -->
 
     <!-- header start -->
     <header class="header">
@@ -32,20 +44,22 @@
         <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
         <div class="nav-menu-inner">
             <ul>
-                <li><a href="#" class="inner-shadow active">home</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">about</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">service</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">portfolio</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">testimonial</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">contact</a></li>
+                <li><a href="#home" class="link-item inner-shadow active">home</a></li>
+                <li><a href="#about" class="link-item outer-shadow hover-in-shadow">about</a></li>
+                <li><a href="#services" class="link-item outer-shadow hover-in-shadow">services</a></li>
+                <li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow">portfolio</a></li>
+                <li><a href="#testimonial" class="link-item outer-shadow hover-in-shadow">testimonial</a></li>
+                <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">contact</a></li>
             </ul>
         </div>
         <!--  copyright text -->
         <p class="copyright-text">&copy; 2021 Tasayu</p>
     </nav>
+    <div class="fade-out-effect"></div>
     <!-- navigation menu end -->
+
     <!-- home section start -->
-    <section class="home-section section">
+    <section class="home-section section active" id="home">
         <!-- effect wrap start -->
         <div class="effect-wrap">
             <div class="effect effect-1"></div>
@@ -54,9 +68,7 @@
             </div>
             <div class="effect effect-3"></div>
             <div class="effect effect-4"></div>
-            <div class="effect effect-5">
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
+            
         </div>
         <!-- effect wrap end -->
         <div class="container">
@@ -65,7 +77,7 @@
                     <p>Hello</p>
                     <h2>I'm Adetayo</h2>
                     <h1>Front End Web Designer & Developer</h1>
-                    <a href="#" class="btn-1 outer-shadow hover-in-shadow">More About Me</a>
+                    <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow">More About Me</a>
                 </div>
                 <div class="home-img">
                     <div class="img-box inner-shadow">
@@ -78,8 +90,12 @@
     <!-- home section end -->
 
     <!-- about section start -->
-    <section class="about-section section">
+    <section class="about-section section" id="about">
+        
+        
         <div class="container">
+
+           
             <div class="row">
                 <div class="section-title">
                     <h2 data-heading="main info">About me</h2>
@@ -92,40 +108,39 @@
                     </div>
                     <!-- social links start -->
                     <div class="social-links">
-                        <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://web.facebook.com/tasayu11" target="_blank" class="outer-shadow hover-in-shadow"><i class="fab fa-facebook-f"></i></a>
+                        <!-- <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-twitter"></i></a> -->
+                        <a href="https://www.instagram.com/tasayu_salamiadetayo/" target="_blank" class="outer-shadow hover-in-shadow"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/salami-adetayo-527099138/"  target="_blank" class="outer-shadow hover-in-shadow"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <!-- social links end -->
                 </div>
                 <div class="about-info">
-                    <p><span>Hi! My name is Salami Adetayo. i am a Front End Web Developer.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi neque, non facilis nisi ducimus dolor ratione corporis ut debitis dolorum reiciendis at iusto quo nostrum voluptates pariatur vitae possimus nulla impedit culpa sint saepe. Itaque, voluptatum ipsum. Laudantium explicabo saepe est id sit consequatur magnam adipisci officiis qui optio expedita    </p>  
-                     <p> aspernatur veniam odit error, deserunt eaque molestiae recusandae fugiat! Impedit aliquam tempore vero quo eum eos, numquam molestiae quis vitae.</p>
-                    <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">Download CV</a>
-                    <a href="#" class="btn-1 outer-shadow hover-in-shadow">Hire Me</a>
+                    <p><span>Hi! My name is Salami Adetayo. i am a Front End Web Developer.</span> I'm a Front-End Developer located in Nigeria. I have a serious passion for UI effects, animations and creating inituitive, dynamic user experience    </p>  
+                     <p> Well-organised person, problem solver, independent employee with high attention to detail. Interested in the entire Front-End spectrum and working on ambitious project with positive people</p>
+                    <a href="cv.pdf" class="link-item btn-1 outer-shadow hover-in-shadow">Download CV</a>
+                    <a href="#contact" class="btn-1 outer-shadow hover-in-shadow link-item">Hire Me</a>
                 </div>
             </div>
             <!-- about tabs start -->
             <div class="row">
                 <div class="about-tabs">
-                    <span class="tab-item outer-shadow active" data-target=".skills">skills</span>
-                    <span class="tab-item" data-target=".experience">experience</span>
-                    <span class="tab-item" data-target=".education">education</span>
+                    <span class="tab-item  active" data-target=".skills">skills</span>
                 </div>
+                
             </div>
             <!-- about tabs end -->
 
             <!-- skills start -->
             <div class="row">
-                <div class="skills tab-content">
+                <div class="skills tab-content active">
                     <div class="row">
                         <!-- skills item start-->
                         <div class="skill-item">
-                            <p>Html</p>
+                            <p>Html & CSS</p>
                             <div class="progress inner-shadow">
-                                <div class="progress-bar" style="width: calc(50% - 14px)">
-                                    <span>50%</span>
+                                <div class="progress-bar" style="width: calc(80% - 14px)">
+                                    <span>80%</span>
                                 </div>
                             </div>
                         </div>
@@ -142,7 +157,7 @@
                         <!-- skills item end -->
                         <!-- skills item start-->
                         <div class="skill-item">
-                            <p>bootstrap</p>
+                            <p>Sass</p>
                             <div class="progress inner-shadow">
                                 <div class="progress-bar" style="width: calc(70% - 14px)">
                                     <span>70%</span>
@@ -152,16 +167,7 @@
                         <!-- skills item end -->
                         <!-- skills item start-->
                         <div class="skill-item">
-                            <p>jquery</p>
-                            <div class="progress inner-shadow">
-                                <div class="progress-bar" style="width: calc(80% - 14px)">
-                                    <span>80%</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- skills item end -->
-                        <div class="skill-item">
-                            <p>react</p>
+                            <p>React</p>
                             <div class="progress inner-shadow">
                                 <div class="progress-bar" style="width: calc(70% - 14px)">
                                     <span>70%</span>
@@ -169,9 +175,18 @@
                             </div>
                         </div>
                         <!-- skills item end -->
+                        <div class="skill-item">
+                            <p>TypeScript</p>
+                            <div class="progress inner-shadow">
+                                <div class="progress-bar" style="width: calc(45% - 14px)">
+                                    <span>45%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- skills item end -->
                         <!-- skills item end -->
                         <div class="skill-item">
-                            <p>sql</p>
+                            <p>Node JS</p>
                             <div class="progress inner-shadow">
                                 <div class="progress-bar" style="width: calc(50% - 14px)">
                                     <span>50%</span>
@@ -179,13 +194,374 @@
                             </div>
                         </div>
                         <!-- skills item end -->
+                        
+                    </div>
+                    <div class="backanimate-area">
+                        <ul class="box-area">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <!-- skills end -->
+
+            
+           
         </div>
     </section>
     <!-- about section start -->
-    
+
+    <!-- services section start -->
+    <section class="service-section section" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="Services">What i do </h2>
+                </div>
+            </div>
+            <div class="row">
+                <!-- service item start -->
+                <div class="service-item">
+                    <div class="service-item-inner outer-shadow">
+                        <div class="icon inner-shadow">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Web Design & Development</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <!-- service item end -->
+                <!-- service item start -->
+                <div class="service-item">
+                    <div class="service-item-inner outer-shadow">
+                        <div class="icon inner-shadow">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h3>E-Commerce Development</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <!-- service item end -->
+                <!-- service item start -->
+                <div class="service-item">
+                    <div class="service-item-inner outer-shadow">
+                        <div class="icon inner-shadow">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Reactive & Responsive App</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <!-- service item end -->
+                <!-- service item start -->
+                <div class="service-item">
+                    <div class="service-item-inner outer-shadow">
+                        <div class="icon inner-shadow">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Interactive Design</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <!-- service item end -->
+                <!-- service item start -->
+                <div class="service-item">
+                    <div class="service-item-inner outer-shadow">
+                        <div class="icon inner-shadow">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>Domain & Hosting</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <!-- service item end -->
+                <!-- service item start -->
+                <div class="service-item">
+                    <div class="service-item-inner outer-shadow">
+                        <div class="icon inner-shadow">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3>Customer Support</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <!-- service item end -->
+                <div class="backanimate-area">
+                    <ul class="box-area flat">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+    <!-- services section end -->
+
+    <!-- portfolio section start -->
+    <section class="portfolio-section section" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="portfolio">Latest Works</h2>
+                </div>
+            </div>
+            <!-- portfolio filter start -->
+            <div class="row">
+                <div class="portfolio-filter">
+                    <span class="filter-item outer-shadow active" data-target="all">all</span>
+                    <span class="filter-item" data-target="web-application">web application</span>
+                    <span class="filter-item" data-target="photoshop">photoshop</span>
+                    <span class="filter-item" data-target="mobile-app">mobile app</span>
+                    <span class="filter-item" data-target="e-commerce">e commerce</span>
+                </div>
+            </div>
+            <!-- portfolio filter ends-->
+
+            <!-- portfolio items start -->
+            <div class="row portfolio-items">
+                <!-- portfolio-item start -->
+                <div class="portfolio-item" data-category="web-application">
+                    <div class="portfolio-item-inner outer-shadow">
+                        <div class="portfolio-item-img">
+                            <img src="img/portfolio/thumb/thumb1.png" alt="portfolio" data-screenshots="img/portfolio/large/project-1/1.png,
+                            img/portfolio/large/project-1/2.png,
+                            img/portfolio/large/project-1/3.png,
+                            img/portfolio/large/project-1/4.png,
+                            img/portfolio/large/project-1/5.png,
+                            img/portfolio/large/project-1/1.png">
+                            <!-- view project btn -->
+                            <span class="view-project">view project</span>
+                        </div>
+                        <p class="portfolio-item-title">personal portfolio</p>
+                        <!-- portfolio item details start -->
+                        <div class="portfolio-item-details">
+                            <div class="row">
+                                <div class="description">
+                                    <h3>Project Brief:</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aspernatur et ratione, ipsum nemo illo ad non, accusantium impedit voluptates quo reprehenderit. Nihil libero voluptatibus enim non minus, sequi tempore.</p>
+                                </div>
+                                <div class="info">
+                                    <h3>Project info</h3>
+                                    <ul>
+                                        <li>Date - <span>2020</span></li>
+                                        <li>Client - <span>xyz</span></li>
+                                        <li>Tools - <span>html, css, Javascript</span></li>
+                                        <li>Web - <span><a href="#">www.domain.com</a></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item details end -->
+                    </div>
+                </div>
+                <!-- portfolio-item end -->
+                
+            <div class="backanimate-area">
+                <ul class="box-area flat">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section ends-->
+
+    <!-- testimonial section start -->
+    <section class="testimonial-section section" id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="testimonial">Client Speak</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="testi-box">
+                    <div class="testi-slider outer-shadow">
+                        <div class="testi-slider-container">
+                            <!-- testi item -->
+                            <div class="testi-item">
+                                <i class="fa fa-quote-left left"></i>
+                                <i class="fa fa-quote-right right"></i>
+                                <p>This is the first time i relied on a freelancer and Tayo is awesome, if you know what you need, He can deliver just like that 100% responsive.</p>
+                                <img src="img/testimonial/profile-pic.png " alt="">
+                                <span>Jude Morgan</span>
+                            </div>
+                            <!-- testi item end -->
+                            <!-- testi item -->
+                            <div class="testi-item active">
+                                <i class="fa fa-quote-left left"></i>
+                                <i class="fa fa-quote-right right"></i>
+                                <p>We are very much impressed by degree of care and precision</p>
+                                <img src="img/testimonial/profile-pic.png " alt="">
+                                <span>Taofeek Alima</span>
+                            </div>
+                            <!-- testi item end -->
+                           
+                        </div>
+                    </div>
+                    <div class="testi-slider-nav">
+                        <span class="prev outer-shadow hover-in-shadow"><i class="fa fa-angle-left"></i></span>
+                        <span class="next outer-shadow hover-in-shadow"><i class="fa fa-angle-right"></i></span>
+                    </div>
+                </div>
+                <div class="backanimate-area">
+                    <ul class="box-area flat">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial section start ends-->
+
+    <!-- contact section start -->
+    <section class="contact-section section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="contact">Get In Touch</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!--contact item start-->
+                <div class="contact-item">
+                    <div class="contact-item-inner outer-shadow">
+                        <i class="fa fa-phone"></i>
+                        <span>Phone</span>
+                        <p>000 123 7777</p>
+                    </div>
+                </div>
+                <!--contact item end-->
+                <!--contact item start-->
+                <div class="contact-item">
+                    <div class="contact-item-inner outer-shadow">
+                        <i class="fa fa-envelope"></i>
+                        <span>Email</span>
+                        <p>info@domain.com</p>
+                    </div>
+                </div>
+                <!--contact item end-->
+                <!--contact item start-->
+                <div class="contact-item">
+                    <div class="contact-item-inner outer-shadow">
+                        <i class="fa fa-phone"></i>
+                        <span>Address</span>
+                        <p>b/23 sarita vihar, new delhi- 45900</p>
+                    </div>
+                </div>
+                <!--contact item end-->
+            </div>
+            <div class="row">
+                <div class="contact-form">
+                    <form action="">
+                        <div class="row">
+                            <div class="w-50">
+                                <div class="input-group outer-shadow hover-in-shadow">
+                                    <input type="text" placeholder="Name" class="input-control">
+                                </div>
+                                <div class="input-group outer-shadow hover-in-shadow">
+                                    <input type="text" placeholder="Email" class="input-control">
+                                </div>
+                                <div class="input-group outer-shadow hover-in-shadow">
+                                    <input type="text" placeholder="Subject" class="input-control">
+                                </div>
+                            </div>
+                            <div class="w-50">
+                                <div class="input-group outer-shadow hover-in-shadow">
+                                    <textarea class="input-control" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="submit-btn">
+                                <button type="submit" class="btn-1 outer-shadow hover-in-shadow">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="backanimate-area">
+                <ul class="box-area">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- contact section end-->
+
+    <!-- portfolio popup start -->
+    <div class="pp portfolio-popup">
+        <div class="pp-details">
+            <div class="pp-details-inner">
+                <div class="pp-title">
+                    <h2>personal portfolio</h2>
+                    <p>Category - <span class="pp-project-category">Web Application</span></p>
+                </div>
+                <div class="pp-project-details">
+                    <div class="row">
+                        <div class="description">
+                            <h3>Project Brief:</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aspernatur et ratione, ipsum nemo illo ad non, accusantium impedit voluptates quo reprehenderit. Nihil libero voluptatibus enim non minus, sequi tempore.</p>
+                        </div>
+                        <div class="info">
+                            <h3>Project info</h3>
+                            <ul>
+                                <li>Date - <span>2020</span></li>
+                                <li>Client - <span>xyz</span></li>
+                                <li>Tools - <span>html, css, Javascript</span></li>
+                                <li>Web - <span><a href="#">www.domain.com</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="seperator"></div>
+
+        <div class="pp-main">
+            <div class="pp-main-inner">
+                <div class="pp-project-details-btn outer-shadow hover-in-shadow">Project Details <i class="fas fa-plus"></i></div>
+                <div class="pp-close outer-shadow hover-in-shadow">&times;</div>
+                <img src="img/portfolio/large/project-1/1.png" alt="img" class="pp-img outer-shadow">
+                <div class="pp-counter">1 of 6</div>
+            </div>
+            <div class="pp-loader">
+                <div></div>
+            </div>
+            <!-- pp navigation-->
+            <div class="pp-prev"><i class="fas fa-play"></i></div>
+            <div class="pp-next"><i class="fas fa-play"></i></div>
+        </div>
+    </div>
+    <!-- portfolio popup end -->
+
+    <!-- main js-->
+    <script src="js/main.js"></script>
 </body>
 </html>
