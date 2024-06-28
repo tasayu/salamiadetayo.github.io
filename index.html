@@ -79,7 +79,7 @@
                 <div class="home-text animate__animated animate__backInLeft">
                     <p>Hello</p>
                     <h2 class="animate__animated animate__fadeIn animate__delay-1s">I'm Adetayo</h2>
-                    <h1 class="animate__animated animate__fadeIn animate__delay-2s">Front End Web Designer & Developer</h1>
+                    <h1 class="animate__animated animate__fadeIn animate__delay-2s"><span class="auto-type"></span></h1>
                     <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow animate__animated animate__fadeIn animate__delay-3s" >More About Me</a>
                 </div>
                 <div class="home-img animate__animated animate__fadeInDown">
@@ -89,6 +89,15 @@
                 </div>
             </div>
         </div>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings : ["Web Developer", "Web Designer", "Freelancer"],
+                typeSpeed : 150,
+                backSpeed : 150,
+                loop : true
+            })
+        </script>
     </section>
     <!-- home section end -->
 
@@ -107,7 +116,7 @@
             <div class="row">
                 <div class="about-img animate__animated animate__fadeInLeft">
                     <div class="img-box inner-shadow">
-                        <img src="img/profile-pic.png" class="outer-shadow" alt="profile-pic">
+                        <img src="img/about-profile2.png" class="outer-shadow" alt="profile-pic">
                     </div>
                     <!-- social links start -->
                     <div class="social-links">
@@ -119,8 +128,8 @@
                     <!-- social links end -->
                 </div>
                 <div class="about-info animate__animated animate__fadeInLeft ">
-                    <p><span>Hi! My name is Salami Adetayo. i am a Front End Web Developer.</span> I'm a Front-End Developer located in Nigeria. I have a serious passion for UI effects, animations and creating inituitive, dynamic user experience    </p>  
-                     <p> Well-organised person, problem solver, independent employee with high attention to detail. Interested in the entire Front-End spectrum and working on ambitious project with positive people</p>
+                    <p>Welcome to my digital playground! <span>I'm Salami Adetayo, </span> a boundary-pushing web developer on a mission to blend artistry with functionality. From sleek interfaces to seamless user experiences, I thrive on transforming concepts into captivating online realities. Let's build something extraordinary together!</p>  
+                     <p> Crafting digital experiences with precision and creativity! I'm a passionate web developer dedicated to turning ideas into interactive realities. With expertise in HTML, CSS, JavaScript, and beyond, I specialize in building sleek, responsive websites that leave a lasting impression. Let's collaborate and bring your vision to life!</p>
                     <a href="portfolioFile/ADETAYOcv.pdf" class="link-item btn-1 outer-shadow hover-in-shadow animate__animated animate__fadeIn animate__delay-2s">Download CV</a>
                     <a href="#contact" class="btn-1 outer-shadow hover-in-shadow link-item animate__animated animate__fadeIn animate__delay-2s">Hire Me</a>
                 </div>
@@ -500,6 +509,10 @@
                     <div class="portfolio-item-inner outer-shadow">
                         <div class="portfolio-item-img">
                             <img src="img/portfolio/thumb/capment.png" alt="portfolio" data-screenshots="img/portfolio/large/capment/1.png,
+                            img/portfolio/large/capment/2.png,
+                            img/portfolio/large/capment/3.png,
+                            img/portfolio/large/capment/4.png,
+                            img/portfolio/large/capment/5.png,
                             img/portfolio/large/capment/2.png">
                             <!-- view project btn -->
                             <span class="view-project">view project</span>
@@ -518,7 +531,7 @@
                                         <li>Date - <span>2020</span></li>
                                         <li>Client - <span>Capment</span></li>
                                         <li>Tools - <span>html, css, Javascript</span></li>
-                                        <li>Web - <span><a href="#">www.capment.com</a></span></li>
+                                        <li>Web - <span><a href="https://capment.netlify.app/">www.capment.com</a></span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -528,15 +541,17 @@
                 </div>
                 <!-- portfolio-item end -->
                 <!-- portfolio-item start -->
-                <div class="portfolio-item" data-category="photoshop">
+                <div class="portfolio-item" data-category="landing-page">
                     <div class="portfolio-item-inner outer-shadow">
                         <div class="portfolio-item-img">
-                            <img src="img/portfolio/thumb/thumb1.png" alt="portfolio" data-screenshots="img/portfolio/large/project-6/1.png,
-                            img/portfolio/large/project-6/2.png">
+                            <img src="img/portfolio/thumb/demoportfo.png" alt="portfolio" data-screenshots="img/portfolio/large/demoportfo/1.png,
+                            img/portfolio/large/demoportfo/2.png,
+                            img/portfolio/large/demoportfo/3.png,
+                            img/portfolio/large/demoportfo/4.png">
                             <!-- view project btn -->
                             <span class="view-project">view project</span>
                         </div>
-                        <p class="portfolio-item-title">wedding couple</p>
+                        <p class="portfolio-item-title">Portfolio Website</p>
                         <!-- portfolio item details start -->
                         <div class="portfolio-item-details">
                             <div class="row">
@@ -548,9 +563,9 @@
                                     <h3>Project info</h3>
                                     <ul>
                                         <li>Date - <span>2020</span></li>
-                                        <li>Client - <span>xyz</span></li>
+                                        <li>Client - <span>This is Demo Site</span></li>
                                         <li>Tools - <span>html, css, Javascript</span></li>
-                                        <li>Web - <span><a href="#">www.domain.com</a></span></li>
+                                        <li>Web - <span><a href="https://demoportfo.netlify.app/">www.demoportfo.com</a></span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -624,8 +639,8 @@
                                 <i class="fa fa-quote-left left"></i>
                                 <i class="fa fa-quote-right right"></i>
                                 <p>"I am beyond impressed with the website your team created for us. Not only did you capture the essence of our brand perfectly, but you also incorporated all the functionalities we needed seamlessly. The website is not only visually appealing but also highly functional. Thank you for your professionalism and dedication!"</p>
-                                <img src="img/testimonial/profile-pic.png " alt="">
-                                <span>Seun Eniolorunda</span>
+                                <img src="img/testimonial/robert-richard.jpg " alt="">
+                                <span>Robert Richard</span>
                             </div>
                             <!-- testi item end -->
                             <!-- testi item -->
@@ -633,8 +648,8 @@
                                 <i class="fa fa-quote-left left"></i>
                                 <i class="fa fa-quote-right right"></i>
                                 <p>"Working with your team was an absolute pleasure! From conceptualization to execution, you understood our vision and translated it into a stunning website. The attention to detail and your commitment to delivering on time were exceptional. Thank you for a job well done!"</p>
-                                <img src="img/testimonial/profile-pic.png " alt="">
-                                <span>Funmi Morgan</span>
+                                <img src="img/testimonial/dziana-hasanbek.jpg " alt="">
+                                <span>Dziana Hasanbek</span>
                             </div>
                             <!-- testi item end -->
                         </div>
