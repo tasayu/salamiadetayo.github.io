@@ -472,19 +472,19 @@ home section
 }
 .home-section .home-text p {
   color: var(--text-black-300);
-  font-size: 18px;
+  font-size: 28px;
   text-transform: capitalize;
   margin: 0;
 }
 .home-section .home-text h2 {
-  font-size: 55px;
-  font-weight: 700;
+  font-size: 75px;
+  font-weight: 800;
   color: var(--text-black-900);
   margin: 0;
 }
 .home-section .home-text h1 {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 40px;
+  font-weight: 500;
   color: var(--text-black-700);
   margin: 0;
   text-transform: capitalize;
